@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iván Salum</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/youtube-picture.png"
+            alt="programador"
+          />
+          <div class="logotype">
+            Iván Salum<br />
+            { ticmasCode }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Iván Salum</h1>
+          <p class="profile-details">
+            Acabo de finalizar el cursado en TICMAS, en Argentina Programa 4.0,
+            también hice 3 años de cursado en el INCUYO de Mendoza y 
+            me facina aprender varios lenguajes de programación y tecnologías.
+          </p>
+          <button class="profile-btn">
+            <a href="miCV.pdf" download="CV-Ivan" style="color:rgb(248, 242, 242)">Descarga cv.PDF</a>
+          </button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/professional-profile.png"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020-2022</div>
+            <div class="experience-company">INCUYO - MENDOZA</div>
+            <div class="experience-position">Desarrollador Web Freelance</div>
+            <div class="experience-description">
+              Desarrollo de la interfaz, el back-end y front-end. Usamos
+              Phyton, HTML, PHP, JavaScript, y herramientas como Angular, bootstrap. 
+              Durante los tres años de cursado, aprendimos a desarrollar software de 
+              Escritorio y páginas Web. También subir proyectos a github y a hosting gratuitos.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2016-2019</div>
+            <div class="experience-company">Entre Cielos | Wine Hotel Spa</div>
+            <div class="experience-position">Seguridad y portería</div>
+            <div class="experience-description">
+              Trabajos administrativos y de Seguridad, personal a cargo.
+              Principalmente horarios nocturnos, manejo de software de
+              seguridad perimetral y mantenimiento de los mismos..
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2010-2015</div>
+            <div class="experience-company">JW.ORG</div>
+            <div class="experience-position">Senior Software</div>
+            <div class="experience-description">
+              Publicación y posteo de todo tipo de documentos digitales
+              En la plataforma JW.ORG, en Ciudad Autónoma de Buenos Aires.
+              Implementamos una arquitectura de actualización de información
+              back-end y front-end. Además de brindar soporte
+              telefónico y presencial del uso del sitió a diferentes tipos de usuarios.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Node.js</li>
+          <li class="skills-skill">React.js</li>
+          <li class="skills-skill">TypeScript</li>
+          <li class="skills-skill">JavaScript</li>
+          <li class="skills-skill">Phyton</li>
+          <li class="skills-skill">MySQL</li>
+        </ul>   
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección:</p>
+            <p class="class contact-text">Coronel Day 3886, Luzuriaga, Mendoza</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Emial:</p>
+            <p class="class contact-text">isalum@live.com.ar</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Telefono:</p>
+            <p class="class contact-text">261-526-0331</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="class contact-text">Deje su mensaje y con gusto le responderé...</p>
+          </div>
+
+        </div>
+        <form action="https://formsubmit.co/ivasalum@gmail.com" class="contact-form" method="post">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" rows="6"></textarea>
+          </div>
+          <button type="submit" class="contact-form-submit" >Enviar</button>
+        </form>  
+
+
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/iv%C3%A1n-exequiel-salum-704830135/?trk=public-profile-join-page" target="_blank">
+              <img src="img/social/linkedin.svg" alt="">
+            </li>
+            <li>
+              <a href="https://github.com/isalum" target="_blank">
+              <img src="img/social/github.svg" alt="">
+            </li>
+          </ul>
+        </nav>
+
+      </section>
+
+    </div>
+
+  </body>
+</html>
